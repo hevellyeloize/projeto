@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cherry+Bomb+One&family=Cinzel:wght@400..900&family=Comic+Relief:wght@400;700&family=Concert+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crafty+Girls&family=Gowun+Batang:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Tagesschrift&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Cherry+Bomb+One&family=Cinzel:wght@400..900&family=Comic+Relief:wght@400;700&family=Concert+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crafty+Girls&family=Gowun+Batang:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Tagesschrift&family=Ultra&display=swap');
+
+
+
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    background-color: #D8EFD3;
+}
+
+.titulo{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.titulo2{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #95D2B3;
+}
+
+nav ul li{
+    padding: 15px;
+}
+
+nav ul li a{
+    color: #286458;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.footer{
+    background-color: #55ad88;
+    color:rgb(2, 6, 19);
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+header{
+    background-color: #55AD9B;
+    color:#EAEBD0;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width: 768px){
+    .container{
+        flex-direction: column;
+
+    }
+}
+
+.border{
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    flex: 4;
+    border-radius: 9px;
+    background-color: #70a0968f;
+    color: #fffdfd;
+    
+
+}
+
+.conteudo{
+    flex: 2;
+    color: #D8EFD3;
+    padding: 9px;
+    border-radius: 8px; 
+    width: 10%;
+      
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.inicioimg{
+    width: 45%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.font{
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.end{
+    text-align: end;
+}
+
+.border2{
+    border-radius: 30px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    flex: 4;
+    border-radius: 9px;
+    background-color: #0000008f;
+    color: #fffdfd;
+    opacity: 50%;
+}
